@@ -14,7 +14,7 @@ Y (x) = 0.299Red(x) + 0.587Green(x) + 0.114Blue(x)
 If the second parameter is set to true, it will output various debug statements to the console.
 
 vector<vector<int>> bars(vector<long double> scanline,long double iDiff,bool print)
-This takes the scanline from the getScanline function and calculates the bars. The parameter iDiff is the difference between the intensity values of sequential points of the scanline. If the iDiff value of two sequential points  is less than iDiff, the next value of the scanline is examined until the difference is greater thsn iDiff and the points are reagrded as one bar.
+This takes the scanline from the getScanline function and calculates the bars. The parameter iDiff is the difference between the intensity values of sequential points of the scanline. If the iDiff value of two sequential points  is less than iDiff, the next value of the scanline is examined until the difference is greater thsn iDiff and the points are regarded as one bar.
 If the print parameter is set to true, various debug statements are outputted to the console. 
 
 vector<int> leftPadding(vector<vector<int>> bars)
